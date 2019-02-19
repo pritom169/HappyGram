@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37EA08BE221C418B00AD5DD4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA08BD221C418B00AD5DD4 /* Extensions.swift */; };
 		37FC85B0221866DB00EFFFCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FC85AF221866DB00EFFFCE /* AppDelegate.swift */; };
 		37FC85B2221866DB00EFFFCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FC85B1221866DB00EFFFCE /* ViewController.swift */; };
 		37FC85B5221866DB00EFFFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FC85B3221866DB00EFFFCE /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37EA08BD221C418B00AD5DD4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		37FC85AC221866DA00EFFFCE /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FC85AF221866DB00EFFFCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37FC85B1221866DB00EFFFCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37EA08BC221C417400AD5DD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				37EA08BD221C418B00AD5DD4 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		37FC85A3221866DA00EFFFCE = {
 			isa = PBXGroup;
 			children = (
+				37EA08BC221C417400AD5DD4 /* Utils */,
 				37FC85AE221866DA00EFFFCE /* InstagramFirebase */,
 				37FC85AD221866DA00EFFFCE /* Products */,
 			);
@@ -141,6 +152,7 @@
 				37FC85B8221866DB00EFFFCE /* InstagramFirebase.xcdatamodeld in Sources */,
 				37FC85B2221866DB00EFFFCE /* ViewController.swift in Sources */,
 				37FC85B0221866DB00EFFFCE /* AppDelegate.swift in Sources */,
+				37EA08BE221C418B00AD5DD4 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
